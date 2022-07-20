@@ -7,6 +7,8 @@ import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
+import org.w3c.dom.Text
+
 /**
  * This will roll the dice and see the result
  * on screen
@@ -42,6 +44,7 @@ class MainActivity : AppCompatActivity() {
         //sets description to the imageview
         val resultTextView: TextView = findViewById(R.id.textView)
         resultTextView.text = diceRoll.toString()
+
 
         //2nd Dice
         val dice2 = Dice2(6)
