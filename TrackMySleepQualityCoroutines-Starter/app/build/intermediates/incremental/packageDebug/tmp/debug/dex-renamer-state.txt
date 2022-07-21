@@ -1,0 +1,4 @@
+#Thu Jul 21 10:23:00 SGT 2022
+base.0=D\:\\Users\\Chris\\android-kotlin-fundamentals-starter-apps-master\\TrackMySleepQualityCoroutines-Starter\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

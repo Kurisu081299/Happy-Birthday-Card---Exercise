@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="primaryColor">#795548</color>
+    <color name="primaryDarkColor">#4b2c20</color>
+    <color name="primaryLightColor">#a98274</color>
+    <color name="primaryTextColor">#ffffff</color>
+    <color name="secondaryColor">#ffccbc</color>
+    <color name="secondaryDarkColor">#cb9b8c</color>
+    <color name="secondaryLightColor">#ffffee</color>
+    <color name="secondaryTextColor">#000000</color>
+    <string name="amazing_20">Amazing (20%)</string>
+    <string name="app_name">Tip Time</string>
+    <string name="calculate">Calculate</string>
+    <string name="cost_of_service">Cost of Service</string>
+    <string name="good_18">Good (18%)</string>
+    <string name="how_was_the_service">How was the service?</string>
+    <string name="okay_15">Okay (15%)</string>
+    <string name="round_up_tip">Round up tip?</string>
+    <string name="tip_amount">Tip Amount: %s</string>
+    <style name="Theme.TipTime" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryVariant">@color/primaryLightColor</item>
+        <item name="colorOnPrimary">@color/primaryDarkColor</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondaryColor</item>
+        <item name="colorSecondaryVariant">@color/secondaryLightColor</item>
+        <item name="colorOnSecondary">@color/secondaryDarkColor</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+
+        <item name="textInputStyle">@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox</item>
+        <item name="radioButtonStyle">@style/Widget.TipTime.CompoundButton.RadioButton</item>
+        <item name="switchStyle">@style/Widget.TipTime.CompoundButton.Switch</item>
+    </style>
+    <style name="Widget.TipTime.CompoundButton.RadioButton" parent="Widget.MaterialComponents.CompoundButton.RadioButton">
+    </style>
+    <style name="Widget.TipTime.CompoundButton.Switch" parent="Widget.MaterialComponents.CompoundButton.Switch">
+        <item name="android:minHeight">40dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textAppearance">?attr/textAppearanceBody1</item>
+        <item name="android:paddingStart">8dp</item>
+    </style>
+    <style name="Widget.TipTime.TextView" parent="Widget.MaterialComponents.TextView">
+        <item name="android:minHeight">48dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textAppearance">?attr/textAppearanceBody1</item>
+    </style>
+</resources>
